@@ -10,4 +10,5 @@
     color: red;
     font-family: 'RobotoV20LatinRegular';
     background: url('../assets/photo.png');
+    background-repeat: no-repeat;
   }

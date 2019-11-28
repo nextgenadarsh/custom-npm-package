@@ -26,9 +26,11 @@
   },
   "homepage": "https://github.com/nextgenadarsh/custom-npm-package#readme",
   "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.2.0",
     "csv-loader": "^3.0.2",
     "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
     "style-loader": "^1.0.1",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
