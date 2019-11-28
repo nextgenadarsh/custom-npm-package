@@ -1,0 +1,40 @@
+{
+  "name": "custom-npm-package",
+  "version": "1.0.0",
+  "description": "Demo of creating/using/publishing/consuming custom NPM package",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nextgenadarsh/custom-npm-package.git"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "webpack",
+    "babel",
+    "react"
+  ],
+  "author": "Adarsh Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nextgenadarsh/custom-npm-package/issues"
+  },
+  "homepage": "https://github.com/nextgenadarsh/custom-npm-package#readme",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "csv-loader": "^3.0.2",
+    "file-loader": "^5.0.2",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}

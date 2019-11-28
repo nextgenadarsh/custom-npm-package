@@ -1,0 +1,13 @@
+ @font-face {
+    font-family: 'RobotoV20LatinRegular';
+    src:  url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'),
+            url('../fonts/roboto-v20-latin-regular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}    
+
+.custom-class {
+    color: red;
+    font-family: 'RobotoV20LatinRegular';
+    background: url('../assets/photo.png');
+  }
